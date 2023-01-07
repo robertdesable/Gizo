@@ -1,6 +1,7 @@
 function bubbleSort($array) {
   $n = $array.Length
   for ($i = 0; $i -lt $n; $i++) {
+    Write-Progress -Activity "Sorting Array" -PercentComplete ($i * 100 / $n) 
     for ($j = 0; $j -lt $n - $i - 1; $j++) {
       if ($array[$j] -gt $array[$j + 1]) {
         # swap elements
