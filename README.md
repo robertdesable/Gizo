@@ -1,9 +1,9 @@
 # Bem Vindo! Este é meu GitHub.
 
-# Música
+## Música
 * Violão
 * Cavaco 
 
-# Games 
+## Games 
 * LA noire
 * Red Dead redemption 
